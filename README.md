@@ -33,18 +33,22 @@ The data is loaded in the Power BI and using Power query the table names are cha
 
 Measures are created for each requirement and based on their usability they are grouped into folders for better readability.
     
-<div style="display: flex; align-items: center;">
-   <img src="./Images/8_Measures.png" alt="8 Measures" style="width: 120px; margin-right: 20px;" >
-  <div>
-    <ul>
-    <li><strong>Base Measures</strong> contains all fundamental measures of quantity , sales, gross profit and gross profit percentage in total.</li>
+<table>
+<tr>
+<td>
+  <img src="./Images/8_Measures.png" alt="8 Measures" style="width: 150px; margin-right: 20px;">
+</td>
+<td>
+  <ul>
+    <li><strong>Base Measures</strong> contains all fundamental measures of quantity, sales, gross profit, and gross profit percentage in total.</li>
     <li><strong>PYTD</strong> contains all the base measure calculations considering till the previous year.</li>
     <li><strong>YTD</strong> contains all the base measure calculations considering till the chosen year.</li>
     <li><strong>Title Measures</strong> contain dynamic names for all reports.</li>
     <li><strong>SWITCH</strong> contains the measuring metric for comparison.</li>
-    </ul>
-  </div>
-</div>
+  </ul>
+</td>
+</tr>
+</table>
 
 
 
